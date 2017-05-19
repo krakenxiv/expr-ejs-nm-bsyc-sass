@@ -6,6 +6,7 @@ body {
   min-height: 100vh; }
   body a {
     color: #f0f;
+    font-size: 24px;
     font-weight: 800; }
 
 .site-body {
