@@ -1,0 +1,48 @@
+@import 'colors';
+
+body {
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  
+  a {
+    color: $pink;
+    font-weight: 800;
+  }
+}
+
+.site-body {
+  background: #666;
+  flex: 1;
+  margin: 0 10%;
+  text-align: center;
+  width: 80%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  
+  a {
+    background: #eee;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    margin: 1em;
+  }
+}
+
+header {
+  background: $black;
+  color: $white;
+  padding: 2em 1em;
+  text-align: center;
+}
+footer {
+  background: $black;
+  color: $white;
+  padding: 2em 1em;
+  text-align: center;
+}
