@@ -15,6 +15,10 @@
   app.get('/about', function(req, res) {
     res.render('pages/about.ejs');
   });
+  
+  app.get('/stuff', function(req, res) {
+    res.render('pages/stuff.ejs');
+  });
 
   app.listen(5000);
 })();
