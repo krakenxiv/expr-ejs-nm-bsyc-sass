@@ -1,4 +1,8 @@
 <!-- views/partials/footer.ejs -->
 <footer>
-  &copy; 2017
+  &copy; <span id="year"></span>
 </footer>
+
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
